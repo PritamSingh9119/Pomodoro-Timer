@@ -1,0 +1,73 @@
+body {
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+
+.pomodoro, .break,.start,.refresh{
+    height: 70px;
+    width: 180px;
+    border-radius: 7px;    
+}
+
+.button-active{
+    background-color: yellow;
+    color: black;
+}
+
+.button-default{
+    background-color: white;
+    color: black;
+}
+
+
+.main-container{
+    top:50%;
+    left:50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.timer-container {
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.control1,.control2{
+    /* left: 22%; */
+    transform: translate(-22%);
+    position: absolute;
+    z-index: 1000;
+}
+
+.control1{
+    top: 5%;
+    left: 22%;
+}
+.control2{
+    bottom:5%;
+    left:32%
+}
+
